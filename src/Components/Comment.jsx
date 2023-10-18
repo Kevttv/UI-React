@@ -3,6 +3,6 @@
 
 export function CommentsPost(){
     return(
-        <div>Hello Im Comment</div>
+        <h1>Hello Im Comment</h1>
     )
 }
