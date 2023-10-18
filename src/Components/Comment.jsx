@@ -1,4 +1,4 @@
-
+import './components.css';
 
 
 export function CommentsPost(){

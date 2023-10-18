@@ -1,9 +1,15 @@
-import {Reactions} from './Reactions'
+import { SearchBar } from "./Components/SearchBar"
+import './App.css'
+// import { Post } from "./Post"
 
-export default function App (){
-    return(
+export default function App() {
+    return (
         <>
-            <Reactions/>
+            <main>
+                <header>
+                    <SearchBar />
+                </header>
+            </main>
         </>
     )
 }

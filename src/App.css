@@ -1,0 +1,17 @@
+.search-bar {
+    border: 1px solid purple;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh;
+}
+
+.search-bar input {
+    height: 6vh;
+    width: 100vh;
+    border-radius: 100px;
+    padding-inline-start: 3vh;
+    border: black solid 1px;
+}
