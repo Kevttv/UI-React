@@ -2,6 +2,8 @@
 
 export function Stats() {
     return (
-        <h1>Hello Im Stats</h1>
+        <>
+            <p>101 reactions</p>
+        </>
     )
 }

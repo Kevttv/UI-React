@@ -1,5 +1,6 @@
+/* Search Bar */
 .search-bar {
-    border: 1px solid purple;
+    /* border: solid purple; */
     height: 100%;
     width: 100%;
     display: flex;
@@ -7,11 +8,135 @@
     justify-content: center;
     padding: 3vh;
 }
-
 .search-bar input {
-    height: 6vh;
-    width: 100vh;
+    height: 7vh;
+    width: 90vh;
     border-radius: 100px;
     padding-inline-start: 3vh;
     border: black solid 1px;
+    padding-right: 3vh;
+    font-size: 2vh;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+}
+.search-bar svg{
+    height: 5vh;
+    width: 10vh;   
+}
+
+/* POST */
+.principal-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: gray; */
+    /* border: solid; */
+}
+.header-post{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: solid; */
+    margin: 0 0 2vh 0;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+/* Content div*/
+.content{
+    margin: 2vh 0 0 0;
+    border-radius: 20px;
+    padding: 1vh;
+    border: solid;
+    width: 100vh;
+}
+
+/* Avatar */
+.content-user-info{
+    display: flex;
+    /* border: solid; */
+    align-items: center;
+}
+.content-user-info img{
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50vh;
+}
+.info{
+    /* border: solid; */
+    margin: 0 2vh 0 2vh;
+}
+
+/* Options */
+.option-content{
+    /* border: solid; */
+    margin: 0 2vh 0 0;
+}
+.option-content svg{
+    height: 5vh;
+    /* cursor: pointer; */
+}
+
+
+.section-post img {
+    height: 100vh;
+    width: 100%;
+    border-radius: 20px;
+}
+/* Footer post */
+.footer-post{
+    display: flex;
+    flex-direction: column;
+
+}
+.stats{
+    display: flex;
+    justify-content: end;
+    margin: 2vh 1vh 2vh 1vh;
+}
+.reaction{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2vh 1vh 2vh 1vh;
+    border: 2px solid;
+    padding: 2vh;
+    border-radius: 20px;
+    background: gray;
+}
+
+/* Like */
+.like svg{
+    height: 5vh;
+}
+.like .liked svg {
+    background-color: red;
+}
+/* Comment */
+.comment svg{
+    height: 5vh;
+}
+/* Share */
+.share svg{
+    height: 5vh;
+}
+/* Stats */
+
+
+
+svg {
+    cursor: pointer;
+}
+
+/* Responsive */
+@media(max-width: 600px){
+    .search-bar {
+        padding: 2vh;
+    }
+    .search-bar input {
+        width: 50vh;
+        height: 5vh;
+    }
+    .search-bar svg{
+        height: 4vh;
+    }
 }

@@ -5,10 +5,14 @@ import { Stats } from './Components/Stats'
 export function Reactions (){
     return(
         <>
-            <CommentsPost/>
-            <Liked/>
-            <Shared/>
+            <div className="stats">
             <Stats/>
+            </div>
+            <div className='reaction'>
+            <Liked/>
+            <CommentsPost/>
+            <Shared/>
+            </div>
         </>
     )
 }
